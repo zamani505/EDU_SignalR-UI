@@ -4,5 +4,15 @@
      {{item}}
   </li>
 </div>
-
+<div>
+  <input  type="text" id="user" placeholder="user" [(ngModel)]="myUser" />
+  <input  type="text" id="message" placeholder="message" [(ngModel)]="myMessage" />
+  
+</div>
+<div>
+  <input type="button" value="Send Message" (click)="sendMessage()"/>
+</div>
+<div style="color: green">
+{{alertText}}
+</div>
 <router-outlet></router-outlet>
