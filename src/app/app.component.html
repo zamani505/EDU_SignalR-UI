@@ -1,18 +1,8 @@
-<div *ngIf="message.length==0">I am listening....</div>
+<!-- <div *ngIf="message.length==0">I am listening....</div>
 <div *ngIf="message.length>0" >
   <li *ngFor="let item of message">
      {{item}}
   </li>
-</div>
-<div>
-  <input  type="text" id="user" placeholder="user" [(ngModel)]="myUser" />
-  <input  type="text" id="message" placeholder="message" [(ngModel)]="myMessage" />
-  
-</div>
-<div>
-  <input type="button" value="Send Message" (click)="sendMessage()"/>
-</div>
-<div style="color: green">
-{{alertText}}
-</div>
+</div> -->
+
 <router-outlet></router-outlet>
