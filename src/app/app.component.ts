@@ -10,7 +10,7 @@ import {
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss'],
 })
-export class AppComponent implements OnInit {
+export class AppComponent {
   // title = 'SignalR';
   // private hubConnectionBuilder!: HubConnection;
   // message:any[]=[];
@@ -35,7 +35,7 @@ export class AppComponent implements OnInit {
    
     //this.hubConnectionBuilder
     //.invoke('ReceiveAsync', this.myUser, this.myMessage)
-    .//then(() => {this.alertText="Your message is sent!";})
+    //then(() => {this.alertText="Your message is sent!";})
     //.catch((err) => {
       //alert(err);
     //});
